@@ -24,10 +24,12 @@ on:
         required: true
         default: 'device/xiaomi/ruby'
       COMMON_TREE_URL:
-        description: 'https://github.com/xkse1234/Android_twrp_tree_ruby'
+        default: 'https://github.com/xkse1234/Android_twrp_tree_ruby'
+        description: 'COMMON_TREE_URL'
         required: true
       COMMON_PATH:
-        description: 'device/xiaomi/ruby'
+        default: 'device/xiaomi/ruby'
+        description: 'COMMON_PATH'
         required: true
       DEVICE_NAME:
         description: 'DEVICE_NAME'
