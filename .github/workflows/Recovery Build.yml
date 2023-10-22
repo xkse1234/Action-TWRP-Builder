@@ -22,7 +22,7 @@ on:
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/xiaomi/ruby'
+        default: 'device/redmi/ruby'
       COMMON_TREE_URL:
         default: 'https://github.com/xkse1234/Android_twrp_tree_ruby'
         description: 'COMMON_TREE_URL'
